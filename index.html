@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edukasi Hipertensi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+  <!-- ===== Header & Navigasi ===== -->
+  <header>
+    <nav>
+      <div class="logo">
+        <h2>Edukasi Hipertensi</h2>
+      </div>
+      <div class="menu">
+        <a href="#beranda">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#kalkulator">Kalkulator</a>
+        <a href="#cara">Pencegahan</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="beranda">
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1>Selamat Datang di Website Edukasi Hipertensi</h1>
+      <p>
+        Pelajari apa itu hipertensi, cara pencegahan, dan hitung status tekanan darah Anda
+        dengan mudah. Menjaga tekanan darah berarti menjaga kesehatan jantung dan kehidupan Anda.
+      </p>
+    </div>
+    <div class="hero-image">
+      <!-- Gambar bisa kamu tambahkan di sini -->
+      <img src="Gambar.png" alt="Edukasi Hipertensi" />
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="about">
+    <div class="about-image">
+      <img src="Gambar1.png" alt="Edukasi Hipertensi" />
+    </div>
+    <div class="about-text">
+      <h2>Apa Itu Hipertensi</h2>
+      <p>
+        Hipertensi atau tekanan darah tinggi adalah kondisi ketika tekanan darah dalam pembuluh darah meningkat 
+        secara persisten di atas normal. Kondisi ini membuat jantung bekerja lebih keras untuk memompa darah ke seluruh tubuh. 
+        Jika dibiarkan, tekanan ini dapat merusak pembuluh darah dan organ vital seperti jantung, otak, dan ginjal.
+        Normalnya, tekanan darah berada di bawah 120/80 mmHg. Jika tekanan darah mencapai ≥140/90 mmHg, maka seseorang dikatakan mengalami hipertensi.
+      </p>
+      <a href="tentang.html" class="btn-more">Selengkapnya</a>
+    </div>
+  </section>
+
+  <!-- ===== kalkulator ===== -->
+  <!-- ===== Kalkulator Section ===== -->
+<section id="kalkulator" class="kalkulator">
+  <div class="kalkulator-text">
+    <h2>Kalkulator Tekanan Darah</h2>
+    <p>Masukkan hasil pengukuran tekanan darah Anda untuk mengetahui apakah berada pada kategori normal,
+      pra-hipertensi, atau hipertensi. Hasil perhitungan ini dapat membantu dalam memahami kondisi awal/gejala 
+      kesehatan pembuluh darah dan dapat menjadi langkah pertama untuk memantau resiko hipertensi secara mandiri.
+    </p>
+    <p>
+      Pastikan ketika mengukur tekanan darah anda berada dalam kondisi tenang dan menggunakan alat yang 
+      terkalibrasi agar hasil lebih akurat.
+    </p>
+  </div>
+    <div class="kalkulator-hitung">
+      <h2>Hitung Status Tekanan Darah</h2>
+      <div class="kalkulator-box">
+        <label for="sistolik">Sistolik (mmHg):</label>
+        <input type="number" id="sistolik" placeholder="contoh: 120">
+
+        <label for="diastolik">Diastolik (mmHg):</label>
+        <input type="number" id="diastolik" placeholder="contoh: 80">
+
+        <button id="hitungBtn">Hitung Status</button>
+
+        <div class="result" id="hasil"></div>
+      </div>
+    </div>
+</section>
+
+
+  <!-- ===== Pencegahan Section ===== -->
+<!-- ===== Pencegahan Section ===== -->
+<!-- ===== Pencegahan Section ===== -->
+<section id="cara" class="cara">
+  <h2>Pencegahan Hipertensi</h2>
+
+  <div class="grid-container">
+    <div class="item">Konsumsi makanan sehat dan rendah garam</div>
+    <div class="item">Hindari kebiasaan merokok dan alkohol</div>
+    <div class="item">Rajin berolahraga dan jaga berat badan</div>
+    <div class="item">Kelola stres dengan baik</div>
+    <div class="item">Periksa tekanan darah secara rutin</div>
+    <div class="item">Batasi konsumsi kafein dan gula berlebih</div>
+  </div>
+
+  <a href="pencegahan.html" class="btn-more">Selengkapnya</a>
+</section>
+
+
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    &copy; 2025 Edukasi Hipertensi | Sumber informasi: Kemenkes RI & WHO
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

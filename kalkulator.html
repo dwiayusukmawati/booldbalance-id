@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Tekanan Darah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ===== Header & Navigasi ===== -->
+  <header>
+    <nav>
+      <div class="logo">
+        <h2>Edukasi Hipertensi</h2>
+      </div>
+      <div class="menu">
+        <a href="index.html">Beranda</a>
+        <a href="pencegahan.html">Pencegahan</a>
+        <a href="kalkulator.html" class="active">Kalkulator</a>
+        <a href="tentang.html">Tentang</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>Kalkulator Tekanan Darah</h1>
+        <p>Gunakan kalkulator ini untuk mengetahui kategori tekanan darah Anda berdasarkan nilai sistolik dan diastolik.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Konten Utama ===== -->
+  <section class="content">
+    <h2>Hitung Status Tekanan Darah</h2>
+
+    <div class="calculator-box">
+      <label for="sistolik">Sistolik (mmHg):</label>
+      <input type="number" id="sistolik" placeholder="contoh: 120">
+
+      <label for="diastolik">Diastolik (mmHg):</label>
+      <input type="number" id="diastolik" placeholder="contoh: 80">
+
+      <button id="hitungBtn">Hitung Status</button>
+
+      <div class="result" id="hasil"></div>
+    </div>
+
+    <div class="info-note">
+      <h3>Keterangan:</h3>
+      <ul>
+        <li><strong>Normal:</strong> Sistolik &lt; 120 dan Diastolik &lt; 80</li>
+        <li><strong>Prahipertensi:</strong> Sistolik 120–139 atau Diastolik 80–89</li>
+        <li><strong>Hipertensi:</strong> Sistolik ≥140 atau Diastolik ≥90</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    &copy; 2025 Edukasi Hipertensi | Informasi ini bersifat edukatif, bukan diagnosis medis.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
